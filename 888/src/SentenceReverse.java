@@ -19,7 +19,7 @@ public class SentenceReverse {
 	 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 System.out.println(reverser("Ingénieur Informatique , France "));
+		 System.out.println(reverser("Java Dev , France "));
 	 	
 	}
 

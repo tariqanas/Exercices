@@ -1,10 +1,9 @@
-import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class Kata {
+public class PhoneNumber {
 
 	public static String createPhoneNumber(int[] numbers) {
-		// Your code here!
+		
 		
 		return String.format("(%d%d%d) %d%d%d-%d%d%d%d", IntStream.of(numbers).boxed().toArray());
 		
